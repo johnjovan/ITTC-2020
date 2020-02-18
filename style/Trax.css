@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+nav {
+    padding: 5px 0;
+    height: 100px;
+}
+
+nav #container1 {
+    position: relative;
+    line-height: 100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+#container1 span {
+    float: left;
+    width: 10%;
+}
+
+#container1 #list {
+    float: right;
+    width: 90%;
+    height: 100px;
+}
+
+#list {
+    float: right;
+}
+
+#list ul {
+    height: 100%;
+    float: right;
+}
+
+#list ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#list ul li a {
+    font-size: 14px;
+    color: white;
+    margin: 20px 24px;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+#list ul li a:hover {
+    color: #24CDD5
+}
+
+#list ul li ul li a {
+    color: black;
+}
+
+#Home {
+    float: none;
+    border: none;
+    color: black;
+}
