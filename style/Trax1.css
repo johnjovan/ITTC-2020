@@ -44,10 +44,10 @@ nav #container1 {
 }
 
 #list ul li a {
-    font-size: 14px;
     color: white;
     margin: 20px 24px;
     padding: 8px 0;
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -62,5 +62,18 @@ nav #container1 {
 #Home {
     float: none;
     border: none;
+    color: black;
+
+}
+
+#dropdownblog {
+    width: 200px;
+    height: 300px;
+    background: white;
+    color: black;
+}
+
+
+#dropdownblog ul a {
     color: black;
 }
