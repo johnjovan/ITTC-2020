@@ -57,13 +57,23 @@ nav #container1 {
     padding: 10px;
 }
 
-
-#list ul .dropdown-menu.show {
-    position: relative;
-    text-align: left;
+#list ul #dropdown-home.show {
     width: 800px;
 }
 
+#list ul #dropdown-pages.show {
+    width: 800px;
+}
+
+#list ul #dropdown-blog.show {
+    width: 230px;
+}
+
 #list ul .dropdown-item.active {
+    color: #24CDD5;
+}
+
+
+#list ul .dropdown-menu a:hover{
     color: #24CDD5;
 }
