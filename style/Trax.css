@@ -91,6 +91,10 @@ nav #container1 {
     z-index: 1;
 }
 
+#carousels ul li{
+  float: left;
+}
+
 #cimg {
     z-index: 1;
     opacity: 0.15;
