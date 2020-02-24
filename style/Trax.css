@@ -86,20 +86,75 @@ nav #container1 {
 
 
 
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 31px;
+    right: 34px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn span:nth-child(1) {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    margin: 5px 0 4px 0;
+}
+
+#sidebar .toggle-btn span:nth-child(2) {
+    position: relative;
+    right: -6px;
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    margin: 3px 0 0px 0;
+    transition: 0.5s ease-in-out;
+}
+
+#sidebar .toggle-btn span:nth-child(3) {
+    position: relative;
+    right: -13px;
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    margin: 4px 0 0 0;
+    transition: 0.5s ease-in-out;
+}
+
+#sidebar .toggle-btn:hover span:nth-child(2) {
+    right: 0;
+}
+
+#sidebar .toggle-btn:hover span:nth-child(3) {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #carousels {
     width: 100%;
     z-index: 1;
 }
 
-#carousels ul li{
-  float: left;
+#carousels ul li {
+    float: left;
 }
 
-#cimg {
-    z-index: 1;
-    opacity: 0.15;
-    color: black;
-}
 
 #carousels ul {
     float: left;
