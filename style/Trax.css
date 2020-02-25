@@ -2,6 +2,18 @@ body {
     color: white;
     background: grey;
 }
+::-webkit-scrollbar{
+    width: 8px;
+    height: 30px;
+}
+
+::-webkit-scrollbar-track{
+    background: #343a40;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #1894b3;
+}
 
 nav {
     padding: 5px 0;
@@ -51,6 +63,9 @@ nav #container1 {
     text-decoration: none;
 }
 
+#list ul li a:hover{
+    color: #24CDD5;
+}
 #list ul .dropdown-item {
     color: black;
     background: none;
@@ -78,13 +93,6 @@ nav #container1 {
 #list ul .dropdown-menu a:hover {
     color: #24CDD5;
 }
-
-
-
-
-
-
-
 
 #sidebar .toggle-btn {
     position: absolute;
