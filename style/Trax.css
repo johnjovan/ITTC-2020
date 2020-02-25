@@ -145,14 +145,16 @@ nav #container1 {
 }
 
 /* Side Menu */
+
 #side-menu{
     height: 100vh;
-    display: block;
+    overflow: hidden;
 }
 
 #side-menu #side-menu-wrapper{
+    position: relative;
     height: 100vh;
-    width: 538px;
+    width: 490px;
     float: right;
     background: linear-gradient(to right, #0897cf, #06bdf5, #15d0dd);
     display: block;
