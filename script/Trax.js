@@ -1,5 +1,5 @@
-// $(document).ready(function () {
-//   $("#Home").hover(function () {
-//     $("#dropdown-home").toggle("active");
-//   });
-// });
+$(document).ready(function () {
+  $("#btn-sidebar").click(function () {
+    $("#side-menu-wrapper").show(500);
+  });
+});
