@@ -1,21 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     color: white;
     background: grey;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 8px;
     height: 30px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background: #343a40;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: #1894b3;
 }
 
@@ -67,9 +69,10 @@ nav #container1 {
     text-decoration: none;
 }
 
-#list ul li a:hover{
+#list ul li a:hover {
     color: #24CDD5;
 }
+
 #list ul .dropdown-item {
     color: black;
     background: none;
@@ -146,12 +149,13 @@ nav #container1 {
 
 /* Side Menu */
 
-#side-menu{
+#side-menu {
     height: 100vh;
     overflow: hidden;
+    z-index: -1030;
 }
 
-#side-menu #side-menu-wrapper{
+#side-menu #side-menu-wrapper {
     position: relative;
     height: 100vh;
     width: 490px;
@@ -159,10 +163,11 @@ nav #container1 {
     background: linear-gradient(to right, #0897cf, #06bdf5, #15d0dd);
     display: block;
     position: relative;
+    overflow: hidden;
     z-index: 1030;
 }
 
-.overlay{
+.overlay {
     clear: both;
 }
 
@@ -184,9 +189,9 @@ nav #container1 {
     float: left;
 }
 
-#carousels .carousel-inner .image-resize{
+/* #carousels .carousel-inner .image-resize{
     height: 800px;
-}
+} */
 
 #carousels ul .carousel-indicators {
     position: relative;
