@@ -5,7 +5,7 @@
 
 body {
     color: white;
-    background: grey;
+    background: white;
 }
 
 ::-webkit-scrollbar {
@@ -197,11 +197,45 @@ nav #container1 {
 
 /*! Some Service */
 
-.col-sm-4 {
-    border: 2px solid black;
-    height: 300px;
-    width: 300px;
+#service {
+    position: relative;
+    top: -135px;
+    height: 50vh;
+    width: 100%;
+    background: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    z-index: 1030;
 }
+
+.swiper-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 28px;
+    background: black;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
 
 
 
@@ -218,8 +252,7 @@ nav #container1 {
 #carousels {
     width: 100%;
     background-color: black;
-    opacity: 0.5;
-    z-index: -1030;
+    opacity: 1;
 }
 
 #carousels ul li {
