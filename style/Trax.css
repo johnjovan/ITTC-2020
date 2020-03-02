@@ -196,7 +196,6 @@ nav #container1 {
 /* *End Side Menu* */
 
 /*! Some Service */
-
 #service {
     position: relative;
     top: -135px;
@@ -207,12 +206,15 @@ nav #container1 {
     font-size: 14px;
     color: white;
     z-index: 1030;
+    overflow: hidden;
 }
 
 .swiper-container {
+    position: relative;
+    left: -100px;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1310px;
     height: 70%;
 }
 
@@ -239,8 +241,46 @@ nav #container1 {
 
 
 
+/* #service {
+    position: relative;
+    top: -135px;
+    height: 50vh;
+    width: 100%;
+    background: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    z-index: 1030;
+}
 
+.swiper-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+}
 
+.swiper-slide {
+    text-align: center;
+    font-size: 28px;
+    background: black;
+
+    /* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+*/
 /*! End Some Service */
 
 
