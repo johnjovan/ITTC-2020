@@ -240,7 +240,6 @@ nav #container1 {
 
 
 
-
 /* #service {
     position: relative;
     top: -135px;
@@ -335,7 +334,7 @@ align-items: center;
     visibility: inherit;
 }
 
-#carousels .carousel-inner img{
+#carousels .carousel-inner img {
     background-size: cover;
 }
 
