@@ -265,7 +265,7 @@ nav #container1 {
     background: black;
 
     /* Center slide text vertically */
-display: -webkit-box;
+/* display: -webkit-box;
 display: -ms-flexbox;
 display: -webkit-flex;
 display: flex;
@@ -277,9 +277,8 @@ justify-content: center;
 -ms-flex-align: center;
 -webkit-align-items: center;
 align-items: center;
-}
+} */
 
-*/
 /*! End Some Service */
 
 
