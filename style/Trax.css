@@ -11,14 +11,15 @@ body {
 ::-webkit-scrollbar {
     width: 8px;
     height: 30px;
+    background-color: #3EABDC;
 }
 
 ::-webkit-scrollbar-track {
-    background: #343a40;
+    background: #515252;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1894b3;
+    background: #3EABDC;
 }
 
 nav {
@@ -218,6 +219,9 @@ nav #container1 {
     height: 70%;
 }
 
+.swiper-wrapper{
+    transform: translate(-50%,-50%);
+}
 .swiper-slide {
     text-align: center;
     font-size: 28px;
@@ -266,6 +270,21 @@ nav #container1 {
 
 .swiper-slide:hover span i {
     transform: scale(1.2);
+}
+
+.swiper-wrapper .swiper-slide-next{
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color stop (51%, #23ced5), to (#5192e1));
+    background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);*/
+    background-image: linear-gradient(to right, #5192e1, #23ced5, #5192e1); 
+    background-size: 200%;
+    transform: translate(-50%, -50%);
+}
+
+.swiper-wrapper .swiper-slide-next:hover{
+    background-position: right;
+    transition: 0.5s;
 }
 
 
