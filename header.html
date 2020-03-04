@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <style>
+        body {
+            background: grey;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            background: crimson;
+            height: 100vh;
+        }
+
+        #box1 {
+            background-image: linear-gradient(to right, #5192e1, #23ced5, #5192e1);
+            height: 50%;
+            background-size: 200%;
+            font-size: 50px;
+            background-position: left;
+            transition: background-position .5s;
+        }
+
+        #box1:hover,
+        #box1:focus {
+            background-position: right;
+        }
+
+        #box1 h1 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 50%;
+        }
+
+        #box2 {
+            background: darkcyan;
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="box1">
+            <h1>BOX 1</h1>
+        </div>
+        <div id="box2">BOX2
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+</body>
+
+</html>
