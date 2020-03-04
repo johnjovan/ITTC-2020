@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -219,9 +221,6 @@ nav #container1 {
     height: 70%;
 }
 
-.swiper-wrapper{
-    transform: translate(-50%,-50%);
-}
 .swiper-slide {
     text-align: center;
     font-size: 28px;
@@ -272,60 +271,23 @@ nav #container1 {
     transform: scale(1.2);
 }
 
-.swiper-wrapper .swiper-slide-next{
-    /* background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color stop (51%, #23ced5), to (#5192e1));
+.swiper-wrapper .swiper-slide-next {
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color stop (51%, #23ced5), to (#5192e1));
     background-image: -webkit-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
     background-image: -moz-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
-    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);*/
-    background-image: linear-gradient(to right, #5192e1, #23ced5, #5192e1); 
+    background-image: -o-linear-gradient(left, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    background-image: linear-gradient(to right, #5192e1, #23ced5, #5192e1);
     background-size: 200%;
-    transform: translate(-50%, -50%);
+    background-position: left;
+    transition: background-position .4s;
 }
 
-.swiper-wrapper .swiper-slide-next:hover{
+.swiper-slide-next:hover,
+.swiper-slide-next:focus {
     background-position: right;
-    transition: 0.5s;
+    transition: .5s ease-in-out;
 }
 
-
-/* #service {
-    position: relative;
-    top: -135px;
-    height: 50vh;
-    width: 100%;
-    background: none;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: white;
-    z-index: 1030;
-}
-
-.swiper-container {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 70%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 28px;
-    background: black;
-
-    /* Center slide text vertically */
-/* display: -webkit-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
--webkit-justify-content: center;
-justify-content: center;
--webkit-box-align: center;
--ms-flex-align: center;
--webkit-align-items: center;
-align-items: center;
-} */
 
 /*! End Some Service */
 
@@ -334,6 +296,7 @@ align-items: center;
 
 
 
+/*! Corousel*/
 
 #carousels {
     width: 100%;
@@ -342,53 +305,82 @@ align-items: center;
 }
 
 #carousels ul li {
-    float: left;
+    position: relative;
+    top: -400px;
+    left: -900px;
 }
 
-/* #carousels .carousel-inner .image-resize{
-    height: 800px;
-} */
+.carousel-inner .carousel-caption {
+    position: absolute;
+    top: 276px;
+}
 
+.carousel-inner .carousel-caption h1:nth-child(1) {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.carousel-inner .carousel-caption h1:nth-child(2) {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.carousel-inner .carousel-caption h1:nth-child(3) {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.carousel-inner .carousel-caption h4:nth-child(4) {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
 
 #carousels #cimg1 {
     background-size: cover;
     background-position: center center;
-    background-color: black;
+    background: #000;
     width: 100%;
     height: 100vh;
-    opacity: 1000;
-    visibility: inherit;
+    opacity: .5;
 }
 
 #carousels #cimg2 {
     background-size: cover;
     background-position: center center;
-    background-color: black;
+    background: #000;
     width: 100%;
     height: 100vh;
-    opacity: 1000;
-    visibility: inherit;
+    opacity: .5;
 }
 
 
 #carousels #cimg3 {
     background-size: cover;
     background-position: center center;
-    background-color: black;
+    background: #000;
     width: 100%;
     height: 100vh;
-    opacity: 1000;
-    visibility: inherit;
+    opacity: .5;
 }
 
-#carousels .carousel-inner img {
+#carousels .carousel-inner .carousel-item img {
     background-size: cover;
 }
 
-#carousels ul .carousel-indicators {
-    position: relative;
-    top: 400px;
+#carousels .carousel-indicators {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 900px;
     left: 0;
+    z-index: 1030;
 }
 
 /* #caption1 {
@@ -403,3 +395,6 @@ align-items: center;
 .carousel-inner {
     height: 100vh;
 } */
+
+
+/*! End Carousel */
