@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+
+section {
+  background: grey;
+  border: 2px solid red;
+  height: 50vh;
+  width: 50vh;
+}
+
+/*!  Using CSS Position  !*/
+
+#section1 {
+  position: relative;
+}
+
+#box1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: indigo;
+  width: 100px;
+  height: 100px;
+}
+
+/*!  Using CSS Flex  !*/
+
+#section2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box2 {
+  position: relative;
+  background: crimson;
+  width: 100px;
+  height: 100px;
+}
+
+/*!  Using CSS Grid-1  !*/
+
+#section3 {
+  position: relative;
+  display: grid;
+}
+
+#box3 {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  background: hotpink;
+  width: 100px;
+  height: 100px;
+}
+
+
+/*!  Using CSS Grid-2  !*/
+
+#section4 {
+  position: relative;
+  display: grid;
+}
+
+#box4 {
+  position: relative;
+  margin: auto;
+  background: chocolate;
+  width: 100px;
+  height: 100px;
+}
+
+/*!  Using CSS Grid-3  !*/
+
+#section5 {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+#box5 {
+  position: relative;
+  background: cyan;
+  width: 100px;
+  height: 100px;
+}
+
+.col-sm-4 {
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
